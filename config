@@ -1,0 +1,15 @@
+https://www.kaggle.com/datasets/shivam316/yolov3-weights
+
+^^ baixar o weights
+
+colocar o coco_names, yolov3.weights e yolov3.cfg na pasta onda vai estar o video ou imagem
+e depois no codigo colocar os caminhos
+
+EXEMPLO
+# Caminhos para os arquivos YOLO
+caminho_weights = "/home/arthur/Documents/Vscode Python dump/fotos/yolov3.weights"
+caminho_cfg = "/home/arthur/Documents/Vscode Python dump/fotos/yolov3.cfg"
+caminho_classes = "/home/arthur/Documents/Vscode Python dump/fotos/coco.names"
+
+EXEMPLO CAMINHO DAS IMAGENS/VIDEOS
+video = cv2.VideoCapture("/home/arthur/Documents/Vscode Python dump/fotos/boi.mp4")
